@@ -1,8 +1,17 @@
 import './App.css'
+import Header from "./components/Header"
+import Nav from "./components/Nav"
+import Mainn from "./components/Mainn"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <h1>lets do it!!</h1>
+    <>
+      <Nav/>
+      <Header/>
+      <Mainn/>
+      <Footer/>
+    </>
   )
 }
 
