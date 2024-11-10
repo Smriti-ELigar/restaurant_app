@@ -1,15 +1,15 @@
 import './App.css'
-import Header from "./components/Header"
 import Nav from "./components/Nav"
 import Mainn from "./components/Mainn"
+import Menu from './components/Menu'
 import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
       <Nav/>
-      <Header/>
-      <Mainn/>
+      <Mainn />
+      <Menu/>
       <Footer/>
     </>
   )
